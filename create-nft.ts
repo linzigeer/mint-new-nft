@@ -30,7 +30,7 @@ const transaction = await createNft(
     umi,
     {
         name: "My NFT",
-        uri: "https://...",
+        uri: "https://raw.githubusercontent.com/linzigeer/mint-new-nft/refs/heads/main/nft-nft.json",
         sellerFeeBasisPoints: percentAmount(0),
         mint,
         collection:
