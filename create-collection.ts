@@ -24,7 +24,7 @@ console.log("set up umi instance for user");
 const collectionMint = generateSigner(umi);
 const transaction = await createNft(umi, {
     name: "My Collection",
-    uri: "https://...",
+    uri: "https://raw.githubusercontent.com/linzigeer/mint-new-nft/refs/heads/main/nft.json",
     sellerFeeBasisPoints: percentAmount(0),
     mint: collectionMint,
 })
